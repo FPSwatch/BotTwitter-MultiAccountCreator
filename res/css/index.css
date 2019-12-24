@@ -4,6 +4,7 @@ html, body {
   line-height: 1.5;
   height: 100%;
   background: #ECF0F3;
+  overflow-y: hidden;
 }
 nav.navbar {
   border-top: 4px solid #276cda;
