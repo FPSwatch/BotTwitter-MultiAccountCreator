@@ -87,8 +87,8 @@
                                             <tr>
                                                 <td width="5%"><i class="fa fa-user"></i></td>
                                                 <td><a href="https://twitter.com/{{user.name}}">{{user.name}}</a></td>
-                                                <td> Access Token : <br>{{user.access_token}}</td>
-                                                <td>Access Token Secret  : <br>{{user.access_token_secret}}</td>
+                                                <td>Access Token : <input id="foo" value="{{user.access_token}}"></td>
+                                                <td>Access Token Secret  : <input id="foo" value="{{user.access_token_secret}}"></td>
                                                 <td class="level-right"><a class="button is-small is-danger" href="/delete/{{user.id}}">Supprimer le compte</a></td>
                                             </tr>
                                             {% endfor %}
@@ -107,5 +107,4 @@
         </div>
     </div>
 </body>
-
 </html>
