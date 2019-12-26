@@ -30,16 +30,16 @@ Flask
 ### Configuration :
 Tout d'abord vous devez cocher dans les réglages de votre app Twitter (sur le site developpeur) la mention 
 "Sign in with Twitter" puis ajouter le callback : http://0.0.0.0:5000/callback
-<br/>;
+<br/>
 ![Test Image 1](https://github.com/j4rj4r/BotTwitter-AccountCreator/blob/master/github_assets/image1.png)
-<br/>;
-<br/>;
+<br/>
+<br/>
 Puis vous devez récuperer vos Consumer Api keys :
-<br/>;
+<br/>
 ![Test Image 1](https://github.com/j4rj4r/BotTwitter-AccountCreator/blob/master/github_assets/image2.png)
-<br/>;
-<br/>;
+<br/>
+<br/>
 Les ajouter dans le fichier server.py dans les bonnes variables :
-<br/>;
+<br/>
 ![Test Image 1](https://github.com/j4rj4r/BotTwitter-AccountCreator/blob/master/github_assets/image3.png)
 
