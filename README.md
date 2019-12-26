@@ -28,3 +28,6 @@ Flask
  Si pip n'est pas reconnu vous devez l'installer.
 
 ### Configuration :
+Tout d'abord vous devez cocher dans les réglages de votre app Twitter (sur le site developpeur) la mention 
+"Sign in with Twitter" puis ajouter le callback : http://0.0.0.0:5000/callback
+![Test Image 1](https://github.com/j4rj4r/BotTwitter-AccountCreator/blob/master/github_assets/image1.png)
