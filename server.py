@@ -11,8 +11,9 @@ import tweepy
 ### Parametres du script ###
 CONSUMER_KEY = ""
 CONSUMER_SECRET = ""
+HOST = "127.0.0.1"
 
-callback = "http://0.0.0.0:5000/callback"
+callback = "http://" + HOST + ":5000/callback"
 Data = namedtuple('Data', 'id name access_token access_token_secret')
 
 
@@ -107,4 +108,4 @@ def delete(cid):
     return redirect('/')
 
 #Permet de lancer le serveur
-app.run(host="0.0.0.0", port=5000)
+app.run(host=HOST, port=5000)
