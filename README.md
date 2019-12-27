@@ -29,7 +29,7 @@ Flask
 
 ### Configuration :
 Tout d'abord vous devez cocher dans les réglages de votre app Twitter (sur le site developpeur) la mention 
-"Sign in with Twitter" puis ajouter le callback : http://0.0.0.0:5000/callback
+"Sign in with Twitter" puis ajouter le callback : http://127.0.0.1:5000/callback
 <br/>
 ![Test Image 1](https://github.com/j4rj4r/BotTwitter-AccountCreator/blob/master/github_assets/image1.png)
 <br/>
@@ -49,6 +49,7 @@ python3 server.py
 ou
 py server.py
 ```
-Et enfin vous allez juste rentrer dans votre navigateur favoris cette url : http://0.0.0.0:5000/
+Et enfin vous allez juste rentrer dans votre navigateur favoris cette url : http://127.0.0.1:5000/
+Dès que vous avez ajouter des comptes pour chaque compte vous avez les 4 tokens nécessaires pour utiliser le bot twitter.
 
 
